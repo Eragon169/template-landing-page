@@ -37,7 +37,7 @@ a:focus {
 .wrapper {
     position: relative;
     width: 100%;
-    max-width: 1366px;
+    max-width: 100svw;
     margin: 0 auto;
     background: #ffffff;
 }
@@ -77,7 +77,6 @@ a:focus {
 /**********************************/
 .top-bar {
     position: relative;
-    height: 90px;
     background: #fdbe33;
 }
 
@@ -87,10 +86,9 @@ a:focus {
     overflow: hidden;
 }
 
-.top-bar .logo h1 {
+.logo h1 {
     margin: 0;
-    color: #030f27;
-    font-size: 60px;
+    color: #fdbe33;
     line-height: 60px;
     font-weight: 700;
 }
@@ -155,7 +153,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #fdbe33;
+    background-color: #030f27;
     transition: .3s;
 }
 
@@ -167,7 +165,7 @@ a:focus {
     position: fixed;
     top: 0;
     width: 100%;
-    max-width: 1366px;
+    max-width: 100svw;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
     z-index: 999;
 }
@@ -175,6 +173,11 @@ a:focus {
 .nav-bar .navbar {
     height: 100%;
     background: #030f27 !important;
+}
+
+.navbar-nav {
+    justify-content: center;
+    max-width: 100%;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -188,7 +191,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     color: #fdbe33;
-    transition: none;
+    transition: .3s;
 }
 
 .nav-bar .dropdown-menu {
