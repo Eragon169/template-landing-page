@@ -312,6 +312,10 @@
     transition: .5s;
     z-index: 3;
     opacity: 0;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
 }
 
 .team-item:hover .team-img .team-social {
