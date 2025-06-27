@@ -393,10 +393,6 @@
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 }
 
-.team-item img {
-    border-radius: 8px 60px 0 0;
-}
-
 .team-item .team-social {
     display: flex;
     flex-direction: column;
