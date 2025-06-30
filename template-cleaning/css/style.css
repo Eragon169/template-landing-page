@@ -9556,7 +9556,7 @@ textarea.form-control {
       margin: 0 10px;
       opacity: .5; }
 
-.tagcloud a {
+.tagcloud div {
   text-transform: uppercase;
   display: inline-block;
   padding: 4px 10px;

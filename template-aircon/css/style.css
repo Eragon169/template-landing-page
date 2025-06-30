@@ -4,6 +4,8 @@
     --secondary: #001064;
     --light: #F6F7F8;
     --dark: #010A35;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .back-to-top {
@@ -12,6 +14,11 @@
     right: 30px;
     bottom: 30px;
     z-index: 99;
+}
+
+.modal-body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 
@@ -179,7 +186,7 @@
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -226,21 +233,21 @@
 }
 
 @media (min-width: 1200px) {
-    .container.quote .quote-text  {
+    .container.quote .quote-text {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 
-    .container.quote .quote-form  {
+    .container.quote .quote-form {
         padding-right: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .container.quote .quote-text  {
+    .container.quote .quote-text {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 
-    .container.quote .quote-form  {
+    .container.quote .quote-form {
         padding-right: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
