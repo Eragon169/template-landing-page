@@ -85,6 +85,10 @@ p {
 	margin: 0 0 15px 0;
 }
 
+a{
+	text-decoration: none !important;
+}
+
 img {
 	max-width: 100%;
 }
@@ -1214,6 +1218,32 @@ ol {
 .blog-hero-section .bh-text ul li:last-child:after {
 	display: none;
 }
+
+/*---------------------
+  modal Section
+-----------------------*/
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh;
+  background-color: #2a2a2a;
+}
+
+.modal-body.custom-scroll {
+  overflow-y: auto;
+  max-height: 60vh;  /* Atur tinggi agar bisa scroll */
+  padding: 20px;
+}
+
+/* Sembunyikan scrollbar (opsional) */
+.modal-body.custom-scroll::-webkit-scrollbar {
+  width: 0;
+}
+.modal-body.custom-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 
 /*---------------------
   Blog Details Section
