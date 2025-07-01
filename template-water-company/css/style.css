@@ -426,19 +426,19 @@
     
 }
 
-#blogModal1 .modal-body p{
+#blogModal1 .modal-body p, #blogModal2 .modal-body p, #blogModal3 .modal-body p{
     
     text-align: center;
     overflow-wrap: break-word;
     
 }
 
-#blogModal1 .modal-body img{
+/* #blogModal1 .modal-body img, #blogModal2 .modal-body img, #blogModal3 .modal-body img{
     
     width: 50%;
     height: auto;
     
-}
+} */
 
 
 
