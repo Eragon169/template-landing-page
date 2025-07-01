@@ -491,40 +491,38 @@ h6,
     }
 }
 
-.berita{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
-    
-    
+
+
+
+.berita {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: flex-start;
 }
 
-.berita-item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(6, 162, 218, 0.253);
-    width: 25%;
-    height: auto;
-    border-radius: 20px;
-}
-
-.modal-header-blog1 {
-    display: flex;
-    
-    
-    justify-content: center;
-    
-    margin-top: 26px;
-}
-
-.modal-header-blog1 .btn-close {
-  position: absolute;
-  right: 1rem;
+.berita-item {
+ width: 25%;
+  box-sizing: border-box;
+  background-color: rgba(6, 162, 218, 0.1);
+  border-radius: 20px;
   
+  display: flex;
+  flex-direction: column;
 }
+
+.berita-item img {
+  width: 100%;
+ 
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.berita-item h4{
+    overflow-wrap: break-word;
+}
+
+c
 
 #beritaModal1 .modal-body, #beritaModal2 .modal-body, #beritaModal3 .modal-body{
     
