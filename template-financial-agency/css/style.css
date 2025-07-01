@@ -5,6 +5,8 @@
     --tertiary: #555555;
     --light: #DFE4FD;
     --dark: #011A41;
+    --ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .back-to-top {
@@ -54,6 +56,11 @@ h6,
     opacity: 1;
 }
 
+/*** Modal ***/
+.modal-body {
+    --ms-overflow-style: none;
+    scrollbar-width: none;
+}
 
 /*** Button ***/
 .btn {

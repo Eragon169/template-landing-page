@@ -1,3 +1,7 @@
+:root {
+    --ms-overflow-style: none;
+    scrollbar-width: none;
+}
 
 /*** Spinner Start ***/
 #spinner {
@@ -12,6 +16,7 @@
     visibility: visible;
     opacity: 1;
 }
+
 /*** Spinner End ***/
 
 .back-to-top {
@@ -22,6 +27,11 @@
     z-index: 99;
 }
 
+/*** Modal ***/
+.modal-body {
+    --ms-overflow-style: none;
+    scrollbar-width: none;
+}
 
 /*** Button Start ***/
 .btn {
@@ -97,7 +107,7 @@
 }
 
 
-/*** Topbar Start ***/ 
+/*** Topbar Start ***/
 .topbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -122,6 +132,7 @@
     transition: .5s;
     opacity: 1;
 }
+
 /*** Topbar End ***/
 
 
@@ -252,6 +263,7 @@
         opacity: 1;
     }
 }
+
 /*** Navbar End ***/
 
 
@@ -281,6 +293,7 @@
     transform: translateX(-50%);
     margin-left: 30px;
 }
+
 .header-carousel .owl-nav .owl-next {
     bottom: 30px;
     left: 53%;
@@ -334,6 +347,7 @@
         margin-left: 45px;
     }
 }
+
 /*** Carousel Hero Header End ***/
 
 
@@ -356,6 +370,7 @@
 .bg-breadcrumb .breadcrumb .breadcrumb-item a {
     color: var(--bs-white);
 }
+
 /*** Single Page Hero Header End ***/
 
 
@@ -416,6 +431,7 @@
 .feature .feature-item:hover .feature-icon {
     color: var(--bs-white);
 }
+
 .feature .feature-item:hover h4,
 .feature .feature-item:hover p {
     color: var(--bs-white);
@@ -430,6 +446,7 @@
     background: var(--bs-dark);
     color: var(--bs-white);
 }
+
 /*** Feature End ***/
 
 
@@ -437,6 +454,7 @@
 .service .service-item {
     border-radius: 10px;
 }
+
 .service .service-item .service-img {
     position: relative;
     overflow: hidden;
@@ -554,6 +572,7 @@
 .service .service-item:hover .service-content::after {
     height: 100%;
 }
+
 /*** Service End ***/
 
 
@@ -568,6 +587,7 @@
     color: var(--bs-primary);
     background: var(--bs-light);
 }
+
 /*** FAQs End ***/
 
 
@@ -642,6 +662,7 @@
 .blog .blog-item:hover .blog-content a.btn:hover {
     color: var(--bs-primary);
 }
+
 /*** Blog End ***/
 
 
@@ -651,7 +672,7 @@
     overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-} 
+}
 
 .team .team-item .team-img img {
     transition: 0.5s;
@@ -706,6 +727,7 @@
 .team .team-item:hover .team-title {
     background: var(--bs-dark);
 }
+
 /*** Team End ***/
 
 
@@ -746,6 +768,7 @@
     background: var(--bs-dark);
     color: var(--bs-white);
 }
+
 /*** Testimonial End ***/
 
 
@@ -773,21 +796,32 @@
 }
 
 @keyframes image-efects {
-    0%  {border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;}
+    0% {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
 
-    25% {border-radius: 35% 65% 27% 73% / 71% 25% 75% 29%;}
+    25% {
+        border-radius: 35% 65% 27% 73% / 71% 25% 75% 29%;
+    }
 
-    50% {border-radius: 41% 59% 45% 55% / 32% 21% 79% 68%;}
+    50% {
+        border-radius: 41% 59% 45% 55% / 32% 21% 79% 68%;
+    }
 
-    75% {border-radius: 69% 31% 39% 61% / 70% 83% 17% 30%;}
+    75% {
+        border-radius: 69% 31% 39% 61% / 70% 83% 17% 30%;
+    }
 
-    100% {border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;}
+    100% {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
 }
 
 .contact .contact-img .contact-img-inner {
     position: relative;
     z-index: 9;
 }
+
 /*** Contact End ***/
 
 
@@ -872,6 +906,7 @@
 .footer .footer-item .footer-btn a:hover i {
     color: var(--bs-white);
 }
+
 /*** Footer End ***/
 
 
@@ -880,6 +915,5 @@
     background: var(--bs-dark);
     border-top: 1px solid rgba(255, 255, 255, .08);
 }
+
 /*** copyright end ***/
-
-

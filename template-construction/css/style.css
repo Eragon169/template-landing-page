@@ -81,7 +81,7 @@ a:focus {
 /********** Modal CSS ***********/
 /**********************************/
 .modal-body {
-    -ms-overflow-style: none;
+    --ms-overflow-style: none;
     scrollbar-width: none;
 }
 

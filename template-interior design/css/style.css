@@ -3,6 +3,8 @@ body {
 	height: 100%;
 	font-family: "Poppins", sans-serif;
 	-webkit-font-smoothing: antialiased;
+	--ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 h1,
@@ -77,6 +79,11 @@ ol {
 /*---------------------
   Helper CSS
 -----------------------*/
+
+.modal-body {
+    --ms-overflow-style: none;
+    scrollbar-width: none;
+}
 
 .section-title {
 	margin-bottom: 40px;
@@ -2450,7 +2457,7 @@ ol {
 }
 
 .map {
-	height: 460px;
+	height: 100%;
 	margin-top: 40px;
 	margin-bottom: 75px;
 	-webkit-box-shadow: 0px 3px 15px rgba(0, 59, 85, 0.1);

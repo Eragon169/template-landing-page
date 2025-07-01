@@ -4,6 +4,8 @@
     --secondary: #525368;
     --light: #E8F5E9;
     --dark: #0F4229;
+    --ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .back-to-top {
@@ -51,6 +53,12 @@ h6,
     transition: opacity .5s ease-out, visibility 0s linear 0s;
     visibility: visible;
     opacity: 1;
+}
+
+/*** Modal ***/
+.modal-body {
+    --ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 
@@ -308,8 +316,8 @@ h6,
     transition: .3s;
 }
 
-.service-item:hover .service-text .btn {
-    width: 112px;
+.service-item .service-text .btn:hover {
+    width: 166px;
 }
 
 
