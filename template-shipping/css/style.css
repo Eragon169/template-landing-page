@@ -481,5 +481,36 @@
     color: #FF3E41;
 }
 
+#beritaModal1 .modal-body, #beritaModal2 .modal-body, #beritaModal3 .modal-body{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+#beritaModal1 .modal-body p, #beritaModal2 .modal-body p, #beritaModal3 .modal-body p{
+    
+    text-align: center;
+    overflow-wrap: break-word;
+    
+}
+
+
+.modal-header-blog1 {
+    display: flex;
+    
+    
+    justify-content: center;
+    
+    margin-top: 26px;
+}
+
+.modal-header-blog1 .btn-close {
+  position: absolute;
+  right: 1rem;
+  
+} 
 
 

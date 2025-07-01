@@ -51,11 +51,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">Tentang Kami</a>
+                <a href="about.html" class="nav-item nav-link">Tentang Kami</a>
                 <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
-                 <a href="berita.html" class="nav-item nav-link active">Berita</a>
-                <a href="service.html" class="nav-item nav-link">Layanan</a>
+                 <a href="service.html" class="nav-item nav-link">Layanan</a>
                 <a href="price.html" class="nav-item nav-link">Produk</a>
+                 <a href="berita.html" class="nav-item nav-link active">Berita</a>
+                
                 <!-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu fade-up m-0">
@@ -69,7 +70,7 @@
                 </div> -->
                 <a href="contact.html" class="nav-item nav-link">Kontak</a>
             </div>
-            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+012 345 6789</h4>
+            <!-- <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+012 345 6789</h4> -->
         </div>
     </nav>
     <!-- Navbar End -->
@@ -133,7 +134,7 @@
                             <div class="blog-content rounded-bottom p-4">
                                 <a href="#" class="h4 d-inline-block mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde</a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, officiis?</p>
-                                <!-- <a href="#" class="fw-bold text-secondary-custom">Read More <i class="fa fa-angle-right"></i></a> -->
+                                <a href="#" class="fw-bold text-secondary-custom" data-bs-toggle="modal" data-bs-target="#beritaModal1">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -146,7 +147,7 @@
                             <div class="blog-content rounded-bottom p-4">
                                 <a href="#" class="h4 d-inline-block mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde</a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, officiis?</p>
-                                <!-- <a href="#" class="fw-bold text-secondary-custom">Read More <i class="fa fa-angle-right"></i></a> -->
+                                <a href="#" class="fw-bold text-secondary-custom" data-bs-toggle="modal" data-bs-target="#beritaModal2">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -159,7 +160,7 @@
                             <div class="blog-content rounded-bottom p-4">
                                 <a href="#" class="h4 d-inline-block mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde</a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, officiis?</p>
-                                <!-- <a href="#" class="fw-bold text-secondary-custom">Read More <i class="fa fa-angle-right"></i></a> -->
+                                <a href="#" class="fw-bold text-secondary-custom" data-bs-toggle="modal" data-bs-target="#beritaModal3">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -169,7 +170,88 @@
         <!-- Blog End -->
 
 
+        <!-- modal berita start -->
+            <div class="modal fade" id="beritaModal1" tabindex="-1" aria-labelledby="fullscreenModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl"> 
+                    <div class="modal-content">
+                        <div class="modal-header-blog1">
+                            <h5>Berita1</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/service-1.jpg" alt="lorem">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales ante in libero vulputate, 
+                                a commodo felis auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                                Pellentesque quis neque ac odio lacinia porta ac vitae enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                                Maecenas tincidunt egestas velit eget semper. Maecenas euismod consectetur finibus. 
+                                Pellentesque congue turpis rutrum velit aliquam accumsan. Nunc nibh augue, efficitur in est eget, consectetur vulputate erat.
+                                 Pellentesque tempus cursus dictum. Aliquam erat volutpat. Donec vitae risus bibendum, blandit magna vel, imperdiet ante.
+                                  Nullam odio sapien, varius eget velit sit amet, condimentum blandit quam.
+                                   Praesent fermentum feugiat odio, ac eleifend leo vulputate vitae. Proin ut sodales nunc.</p>
+                        </div>
+                        <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                            <button type="button" class="btn btn-primary">Simpan</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
 
+
+            <div class="modal fade" id="beritaModal2" tabindex="-1" aria-labelledby="fullscreenModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl"> 
+                    <div class="modal-content">
+                        <div class="modal-header-blog1">
+                            <h5>Berita2</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/service-2.jpg" alt="lorem">
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales ante in libero vulputate, 
+                                a commodo felis auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                                Pellentesque quis neque ac odio lacinia porta ac vitae enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                                Maecenas tincidunt egestas velit eget semper. Maecenas euismod consectetur finibus. 
+                                Pellentesque congue turpis rutrum velit aliquam accumsan. Nunc nibh augue, efficitur in est eget, consectetur vulputate erat.
+                                Pellentesque tempus cursus dictum. Aliquam erat volutpat. Donec vitae risus bibendum, blandit magna vel, imperdiet ante.
+                                Nullam odio sapien, varius eget velit sit amet, condimentum blandit quam.
+                                Praesent fermentum feugiat odio, ac eleifend leo vulputate vitae. Proin ut sodales nunc.</p>
+                        </div>
+                        <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                            <button type="button" class="btn btn-primary">Simpan</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="beritaModal3" tabindex="-1" aria-labelledby="fullscreenModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl"> 
+                    <div class="modal-content">
+                        <div class="modal-header-blog1">
+                            <h5>Berita3</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/service-3.jpg" alt="lorem">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales ante in libero vulputate, 
+                                a commodo felis auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                                Pellentesque quis neque ac odio lacinia porta ac vitae enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+                                Maecenas tincidunt egestas velit eget semper. Maecenas euismod consectetur finibus. 
+                                Pellentesque congue turpis rutrum velit aliquam accumsan. Nunc nibh augue, efficitur in est eget, consectetur vulputate erat.
+                                 Pellentesque tempus cursus dictum. Aliquam erat volutpat. Donec vitae risus bibendum, blandit magna vel, imperdiet ante.
+                                  Nullam odio sapien, varius eget velit sit amet, condimentum blandit quam.
+                                   Praesent fermentum feugiat odio, ac eleifend leo vulputate vitae. Proin ut sodales nunc.</p>
+                        </div>
+                        <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                            <button type="button" class="btn btn-primary">Simpan</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+        <!-- Modal Berita End -->
         
 
         <!-- Footer Start -->
