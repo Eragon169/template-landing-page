@@ -27,6 +27,8 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
+        
     </head>
 
     <body>
@@ -51,11 +53,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Tentang Kami</a>
+                        <a href="about.html" class="nav-item nav-link">Tentang Kami</a>
                         <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
                         <a href="service.html" class="nav-item nav-link">Layanan</a>
-                        <a href="blog.html" class="nav-item nav-link">Berita</a>
                         <a href="product.html" class="nav-item nav-link">Produk</a>
+                        <a href="blog.html" class="nav-item nav-link">Berita</a>
+                        
                         <!-- <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
@@ -66,16 +69,16 @@
                                 <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>
                         </div> -->
-                        <a href="contact.html" class="nav-item nav-link">Kontak</a>
+                        <!-- <a href="" class="nav-item nav-link">Kontak</a> -->
                     </div>
-                    <div class="d-none d-xl-flex me-3">
+                    <!-- <div class="d-none d-xl-flex me-3">
                         <div class="d-flex flex-column pe-3 border-end border-primary">
                             <span class="text-body">Get Free Delivery</span>
                             <a href="tel:+4733378901"><span class="text-primary">Free: + 0123 456 7890</span></a>
                         </div>
-                    </div>
-                    <button class="btn btn-primary btn-md-square d-flex flex-shrink-0 mb-3 mb-lg-0 rounded-circle me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                    <a href="" class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4">Order Now</a>
+                    </div> -->
+                   
+                    <a href="contact.html" class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4">Kontak</a>
                 </div>
             </nav>
 
@@ -133,23 +136,7 @@
         </div>
         <!-- Navbar & Hero End -->
 
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text btn border p-3"><i class="fa fa-search text-white"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <!-- Modal Search End -->
 
         <!-- feature Start -->
@@ -469,6 +456,14 @@
         </div>
         <!-- Products End -->
 
+        <!-- Modal Start -->
+        <div class="modal-dialog modal-fullscreen-sm-down">
+
+            <h1>judul</h1>
+
+        </div>
+
+        <!-- Modal End -->
 
         <!-- Blog Start -->
         <div class="container-fluid blog pb-5">
@@ -488,6 +483,7 @@
                                 <a href="#" class="h4 d-inline-block mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde</a>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, officiis?</p>
                                 <a href="#" class="fw-bold text-secondary">Read More <i class="fa fa-angle-right"></i></a>
+                                                                    
                             </div>
                         </div>
                     </div>
@@ -744,12 +740,12 @@
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
                             <h4 class="text-white mb-4">About Us</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Why Choose Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Free Water Bottles</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Water Dispensers</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Bottled Water Coolers</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                            <a href="index.html"><i class="fas fa-angle-right me-2"></i> Tentang Kami</a>
+                            <a href="service.html"><i class="fas fa-angle-right me-2"></i>Layanan</a>
+                            <a href="product.html"><i class="fas fa-angle-right me-2"></i>Produk</a>
+                            <a href="blog.html"><i class="fas fa-angle-right me-2"></i>Berita</a>
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i>Kontak</a>
+                            <!-- <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a> -->
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
@@ -785,7 +781,7 @@
         <!-- Footer End -->
         
         <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
+        <!-- <div class="container-fluid copyright py-4">
             <div class="container">
                 <div class="row g-4 align-items-center">
                     <div class="col-md-6 text-center text-md-start mb-md-0">
@@ -799,7 +795,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Copyright End -->
 
 
