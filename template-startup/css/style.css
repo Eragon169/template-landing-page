@@ -491,7 +491,22 @@ h6,
     }
 }
 
+.modal-header-blog1 {
+    display: flex;
+    flex-shrink: 0;
+    
+    justify-content: center;
+    padding: 1rem 1rem;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.095); */
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
 
+.modal-header-blog1 .btn-close {
+  position: absolute;
+  right: 1rem;
+  
+}
 
 
 .berita {
@@ -522,7 +537,7 @@ h6,
     overflow-wrap: break-word;
 }
 
-c
+
 
 #beritaModal1 .modal-body, #beritaModal2 .modal-body, #beritaModal3 .modal-body{
     
